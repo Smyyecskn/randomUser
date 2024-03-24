@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import mailSvg from "./assets/mail.svg";
-import manSvg from "./assets/man.svg";
 import womanSvg from "./assets/woman.svg";
-import manAgeSvg from "./assets/growing-up-man.svg";
 import womanAgeSvg from "./assets/growing-up-woman.svg";
 import mapSvg from "./assets/map.svg";
 import phoneSvg from "./assets/phone.svg";
@@ -199,7 +197,7 @@ function App() {
         </div>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </main>
   );

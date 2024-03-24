@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className="footer-div">
       <a
-        href="https://github.com/anthonyharold67"
+        href="https://github.com/Smyyecskn"
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
       >
-        <h2 className="brand">{"Anthony"}</h2>
+        <h2 className="brand">{"Smyye"}</h2>
       </a>
       <img
         src={designSvg}
